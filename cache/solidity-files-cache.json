@@ -1,0 +1,288 @@
+{
+  "_format": "ethers-rs-sol-cache-1",
+  "files": {
+    "/Users/chay/chay/personal/foundry/src/ComplexStorage.sol": {
+      "lastModificationDate": 1641602087695,
+      "contentHash": "185e2a7b52732fb155092fb3e3ddf947",
+      "sourceName": "src/ComplexStorage.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "ComplexStorage"
+      ]
+    },
+    "/Users/chay/chay/personal/foundry/src/Contract.sol": {
+      "lastModificationDate": 1641600381998,
+      "contentHash": "338c2b456417869f11b228de3b3fbaed",
+      "sourceName": "src/Contract.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Contract"
+      ]
+    },
+    "/Users/chay/chay/personal/foundry/src/HelloWorld.sol": {
+      "lastModificationDate": 1641600656281,
+      "contentHash": "7ebd3106716238e7270ba059ad9d90ac",
+      "sourceName": "src/HelloWorld.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "HelloWorld"
+      ]
+    },
+    "/Users/chay/chay/personal/foundry/src/SimpleStorage.sol": {
+      "lastModificationDate": 1641601285903,
+      "contentHash": "80f332e417244f938be511132f5c16c4",
+      "sourceName": "src/SimpleStorage.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "SimpleStorage"
+      ]
+    },
+    "/Users/chay/chay/personal/foundry/src/test/ComplexStorage.t.sol": {
+      "lastModificationDate": 1641613296035,
+      "contentHash": "925eb17304152f4b5a6a2e65484435cb",
+      "sourceName": "src/test/ComplexStorage.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "ds-test/test.sol",
+        "../ComplexStorage.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "ComplexStorageTest"
+      ]
+    },
+    "/Users/chay/chay/personal/foundry/src/test/Contract.t.sol": {
+      "lastModificationDate": 1641600381999,
+      "contentHash": "5ce497c2d0d00f52e09ab63326c63aef",
+      "sourceName": "src/test/Contract.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "ds-test/test.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "ContractTest"
+      ]
+    },
+    "/Users/chay/chay/personal/foundry/src/test/HelloWorld.t.sol": {
+      "lastModificationDate": 1641600901584,
+      "contentHash": "ac6fee5191f54958a68536d4d3c8085c",
+      "sourceName": "src/test/HelloWorld.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "ds-test/test.sol",
+        "../HelloWorld.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "HelloWorldTest"
+      ]
+    },
+    "/Users/chay/chay/personal/foundry/src/test/SimpleStorage.t.sol": {
+      "lastModificationDate": 1641601619922,
+      "contentHash": "adf6119a7cee68211859d9397ea0bf15",
+      "sourceName": "src/test/SimpleStorage.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "ds-test/test.sol",
+        "../SimpleStorage.sol"
+      ],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "SimpleStorageTest"
+      ]
+    }
+  }
+}
